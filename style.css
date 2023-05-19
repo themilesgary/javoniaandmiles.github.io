@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Nunito;
+    color: #777;
+}
+body {
+    margin: 0;
+    background-color:rgb(245, 245, 220);
+}
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: rgba(245,245,220,.8);
+}
+
+
+.nav a:hover {
+    background-color: rgba(0,0,0,.3);
+}
+
+.title-names {
+    font-family: 'Pinyon Script', cursive;
+    text-align: center;
+    font-size: 4em;
+}
+
+.home-image {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.first-section {
+    height:750px;
+    background-image:url("Images/Pic 5.jpg");
+    background-size: cover;
+}
+
+.second-section {
+    text-align: center;
+}
+
+.fancy-font {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 4em;
+}
+
+.rsvp-section1 {
+    text-align: center;
+}
+
+.venue-section {
+    text-align: center;
+}
