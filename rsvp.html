@@ -27,6 +27,12 @@
             <script src="countdowntimer.js"></script>
             <p>Enter the name on your invitation</p>
             <form action="https://formsubmit.co/540d4398166580ebe1a3b968370c0514" method="POST">
+                <!-- Honeypot  -->
+                <input type="text" name="_honey" style="display: none;">
+
+                <!-- Disable Captcha -->
+                <input type="hidden" name="_captcha" value="false">
+
                 <input type="text" placeholder="e.g. Demarcus Smith" id="userName" name="name">
                 <br>
                 <br>
